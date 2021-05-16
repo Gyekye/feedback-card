@@ -1,0 +1,18 @@
+@import "../sass/variables";
+body {
+    background-color: $bg-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.feedback-card {
+    width: 400px;
+    height: 350px;
+    background-color: $card-bg-color;
+    position: absolute;
+    border: 1px solid $card-bg-color;
+    box-shadow: 5px 2px 8px 10px $bg-color;
+}

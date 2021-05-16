@@ -1,0 +1,27 @@
+//colors 
+$primary-btn-color:#2F2D2C;
+$bg-color:#FFFAF2;
+$card-bg-color:#FFFFFF;
+$primary-font-color:#212D59;
+$secondary-font-color:#535353;
+// fonts
+$montserrat-font-path:"../src/fonts/Montserrat";
+$bold-font-size:18px;
+$medium-font-size:16px;
+@font-face {
+    // This is parsed as a normal function call that takes an arithmetic
+    // expression.
+    src: url(#{$montserrat-font-path}/Montserrat-Bold.woff2) format("woff2");
+    font-family: "m-bold";
+    font-weight: 700;
+    color: $primary-font-color;
+}
+
+@font-face {
+    // This is parsed as a normal function call that takes an arithmetic
+    // expression.
+    src: url(#{$montserrat-font-path}/Montserrat-Medium.woff2) format("woff2");
+    font-family: "m-medium";
+    font-weight: 500;
+    color: $secondary-font-color;
+}
