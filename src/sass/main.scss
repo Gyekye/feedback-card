@@ -56,6 +56,10 @@ body {
         -moz-box-shadow: -1px 14px 31px 8px rgba(224, 225, 229, 0.53);
         box-shadow: -1px 14px 31px 8px rgba(224, 225, 229, 0.53);
         margin-top: 1rem;
+        color: $primary-font-color;
+    }
+    .img-title.active p {
+        color: $primary-font-color;
     }
     .img-title.active img {
         width: 60px;
